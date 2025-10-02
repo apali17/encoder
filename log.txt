@@ -1,0 +1,13 @@
+02102025
+
+1852
+so the initial idea is to create a encoder/decoder that encodes the input string to a long
+number on the basis of ascii values. Just got the idea, lets see how this will turn out.
+
+Will have to check if there is an existing mapping of ascii values in java (should be there)
+
+1939
+
+just wrote the core logic for converting the input string to ascii for encoding and vice versa for decoding.
+write now I'm converting the input string to uppercase first before converting to ascii values as the ascii
+values A-Z are 2 digit, along with whitespace(32) which will be helpful/easy while decoding to plain text.
